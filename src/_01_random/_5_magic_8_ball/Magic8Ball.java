@@ -24,16 +24,21 @@ public class Magic8Ball {
 	if (randomNumber == 0); {
 	// -- tell the user "Yes"
 		JOptionPane.showMessageDialog(null, "Yes");
+	}
 	// 5. If the random number is 1
-		if (randomNumber == 1); {
+		else if (randomNumber == 1); {
 	// -- tell the user "No"
 		JOptionPane.showMessageDialog(null, "No");
+}
 	// 6. If the random number is 2
-		if (randomNumber == 2); {
+		{else  if (randomNumber == 2); 
+			
+		
 	// -- tell the user "Maybe you should ask Google?"
 		JOptionPane.showMessageDialog(null, "Maybe...you should ask Google?");
+		}
 	// 7. If the random number is 3
-		if (randomNumber == 3); {
+		{else if (randomNumber == 3); 
 	// -- write your own answer
 		JOptionPane.showMessageDialog(null, "I don't know...it's not like I'm a fortune teller.");
 		}
