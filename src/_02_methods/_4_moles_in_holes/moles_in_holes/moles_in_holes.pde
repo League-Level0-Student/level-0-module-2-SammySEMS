@@ -18,8 +18,11 @@ void setup() {
 void draw() {
 
 /* Write code here that uses the drawMole method to put a mole in each of the holes */
-//not to self: use ellipse corrdinates to put in moles somehow.
-
+//note to self: use ellipse corrdinates to put in moles somehow.
+drawMole(200,200);
+drawMole(70, 119);
+drawMole(300,60);
+drawMole(297,350);
 }
 
 void drawMole(int moleX, int moleY) {
